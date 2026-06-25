@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+tests/test_voronoiq.py
+voronoiq/__init__.py
+voronoiq/diagram.py
+voronoiq/generators.py
+voronoiq/metrics.py
+voronoiq/region.py
+voronoiq.egg-info/PKG-INFO
+voronoiq.egg-info/SOURCES.txt
+voronoiq.egg-info/dependency_links.txt
+voronoiq.egg-info/requires.txt
+voronoiq.egg-info/top_level.txt

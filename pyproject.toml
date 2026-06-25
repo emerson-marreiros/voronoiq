@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "voronoiq"
+version = "0.1.0"
+description = "Weighted Voronoi Diagrams — multiplicative, additive and power (Laguerre) modes"
+readme = "README.md"
+license = "MIT"
+authors = [
+  { name = "Emerson Marreiros", email = "ec2763@gmail.com" }
+]
+keywords = ["voronoi", "weighted voronoi", "computational geometry", "diagram", "laguerre"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Operating System :: OS Independent",
+  "Topic :: Scientific/Engineering :: Visualization",
+  "Topic :: Scientific/Engineering :: Mathematics",
+]
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.23",
+  "matplotlib>=3.5",
+]
+
+[project.optional-dependencies]
+full = ["scipy>=1.9"]
+dev  = [
+  "pytest>=7.0",
+  "scipy>=1.9",
+  "build",
+  "twine",
+]
+
+[project.urls]
+Homepage   = "https://github.com/emerson-marreiros/voronoiq"
+Repository = "https://github.com/emerson-marreiros/voronoiq"
+Issues     = "https://github.com/emerson-marreiros/voronoiq/issues"
+
+[tool.setuptools.packages.find]
+include = ["voronoiq*"]
