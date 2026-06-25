@@ -2,7 +2,7 @@ Metadata-Version: 2.4
 Name: voronoiq
 Version: 0.1.0
 Summary: Weighted Voronoi Diagrams — multiplicative, additive and power (Laguerre) modes
-Author-email: Emerson Marreiros <ec2763@gmail.com>
+Author-email: Emerson Charles do Nascimento Marreiros <ec2763@gmail.com>
 License-Expression: MIT
 Project-URL: Homepage, https://github.com/emerson-marreiros/voronoiq
 Project-URL: Repository, https://github.com/emerson-marreiros/voronoiq
