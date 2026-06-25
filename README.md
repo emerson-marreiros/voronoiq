@@ -1,5 +1,25 @@
 # voronoiq — Weighted Voronoi Diagrams for Python
 
+**voronoiq** is a Python library for calculating Weighted Voronoi Diagrams—or Power Diagrams—with real-time weight updates.
+
+Unlike classical Voronoi diagrams, **voronoiq** adjusts cell sizes based on weights associated with each site, enabling dynamic load balancing. It is implemented using NumPy and SciPy for O(n log n) performance and features integrated visualization via Matplotlib.
+
+## Applications
+
+Weighted Voronoi Diagrams are used whenever spatial regions must adapt to heterogeneous capacity or cost. `voronoiq` enables these use cases in Python:
+
+### Scientific Research
+- **Computational Biology**: Tissue modeling where cell growth rates are encoded as weights. Applied in microscopy image segmentation and cell division modeling.
+- **Urban Planning**: Coverage areas for schools, hospitals, and public services weighted by capacity to avoid overcrowding.
+- **Cosmology**: Mapping cosmic voids and large-scale structure where galaxy mass acts as site weight.
+
+### Industry
+- **Logistics**: Dynamic delivery zone allocation where distribution centers with high order volume get reduced weight, pushing demand to nearby hubs.
+- **AgriTech**: Precision farming with sensor-weighted irrigation zones based on soil moisture and fertility measurements.
+- **Game Development**: Procedural map generation with weighted biomes and territories to balance resource distribution.
+
+For implementation details and examples, see the `examples/` directory.
+
 A lightweight, dependency-light Python library for constructing and
 visualising **weighted Voronoi diagrams**, including:
 
