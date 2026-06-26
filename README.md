@@ -84,7 +84,7 @@ wv.to_png("out.png")
 ```python
 wv.compute()                     # rasterise the diagram (required first)
 
-wv.plot(**kwargs)                # returns (fig, ax)
+wv.plot(kwargs)                # returns (fig, ax)
 wv.plot_distance_field()         # heat-map of min weighted distance
 wv.plot_comparison()             # side-by-side of all 3 modes
 
